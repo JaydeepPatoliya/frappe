@@ -575,7 +575,7 @@ def get_userinfo(user):
 		if frappe.utils.validate_url(user.user_image, valid_schemes=valid_url_schemes):
 			picture = user.user_image
 		else:
-			picture = frappe_server_url + "/" + user.user_image
+			picture = frappe_server_url + user.user_image
 
 	userinfo = frappe._dict(
 		{
