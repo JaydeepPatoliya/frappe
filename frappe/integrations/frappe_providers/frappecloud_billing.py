@@ -29,6 +29,7 @@ def get_headers():
 
 	return {
 		"X-Site-Token": frappe.conf.get("fc_communication_secret"),
+		"X-Site-User": frappe.session.user,
 		"X-Site": get_site_name(),
 	}
 
@@ -39,6 +40,14 @@ def current_site_info():
 	if request.status_code == 200:
 		return request.json().get("message")
 	else:
+		# user is not allowed to access this resource
+		# not throwing error as this could cause UX issues for a normal user
+		if (
+			request.json().get("exception")
+			== "frappe.exceptions.AuthenticationError: Invalid x-site-user provided"
+		):
+			return None
+
 		frappe.throw(_("Failed to get site info"))
 
 

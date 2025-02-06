@@ -10,6 +10,8 @@ $(document).ready(function () {
 		frappe.call({
 			method: "frappe.integrations.frappe_providers.frappecloud_billing.current_site_info",
 			callback: (r) => {
+				if (!r?.message) return;
+
 				const response = r.message;
 				if (response.trial_end_date) {
 					$(".layout-main-section").before(
