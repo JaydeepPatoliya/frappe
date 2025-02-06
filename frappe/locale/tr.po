@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-05 06:13\n"
+"PO-Revision-Date: 2025-02-06 07:12\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -9754,7 +9754,7 @@ msgstr "Frappe Cloud'da oturum açma isteği başarısız oldu"
 
 #: frappe/email/doctype/email_queue/email_queue.py:280
 msgid "Failed to send email with subject:"
-msgstr "Konuyu içeren e-posta gönderilemedi:"
+msgstr "E-posta Gönderilemedi:"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:41
 msgid "Failed to send notification email"
