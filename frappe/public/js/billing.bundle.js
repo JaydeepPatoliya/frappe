@@ -18,18 +18,17 @@ $(document).ready(function () {
 						generateTrialSubscriptionBanner(response.trial_end_date)
 					);
 
-					addLoginToFCDropdownItem();
-
-					$(".login-to-fc").on("click", function () {
-						window.route = "dashboard";
-						initiateRequestForLoginToFrappeCloud();
-					});
-
 					$(".upgrade-plan-button").on("click", function () {
 						window.route = "site-dashboard";
 						initiateRequestForLoginToFrappeCloud();
 					});
 				}
+				addLoginToFCDropdownItem();
+
+				$(".login-to-fc").on("click", function () {
+					window.route = "dashboard";
+					initiateRequestForLoginToFrappeCloud();
+				});
 			},
 		});
 	}
