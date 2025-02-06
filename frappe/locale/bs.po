@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-05 06:13\n"
+"PO-Revision-Date: 2025-02-06 07:12\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -15348,7 +15348,7 @@ msgstr "Parametar poruke"
 
 #: frappe/templates/includes/contact.js:36
 msgid "Message Sent"
-msgstr ""
+msgstr "Poruka Poslata"
 
 #. Label of a Select field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -16168,7 +16168,7 @@ msgstr "Novi nalog e-pošte"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:47
 msgid "New Event"
-msgstr ""
+msgstr "Novi Događaj"
 
 #: frappe/public/js/frappe/views/file/file_view.js:94
 msgid "New Folder"
@@ -18416,7 +18416,7 @@ msgstr "Procenat"
 #. Label of a Select field in DocType 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Period"
-msgstr ""
+msgstr "Period"
 
 #. Label of a Int field in DocType 'DocField'
 #. Label of a Int field in DocType 'Customize Form Field'
@@ -20171,7 +20171,7 @@ msgstr "Realno vrijeme (SocketIO)"
 #: frappe/social/doctype/energy_point_log/energy_point_log.js:20
 #: frappe/social/doctype/energy_point_log/energy_point_log.json
 msgid "Reason"
-msgstr ""
+msgstr "Razlog"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:820
 msgid "Rebuild"
@@ -20755,7 +20755,7 @@ msgstr "Prikaži oznake lijevo i vrijednosti desno u ovom odjeljku"
 #: frappe/core/doctype/communication/communication.js:43
 #: frappe/desk/doctype/todo/todo.js:36
 msgid "Reopen"
-msgstr ""
+msgstr "Ponovo Otvori"
 
 #: frappe/public/js/frappe/form/toolbar.js:480
 msgid "Repeat"
@@ -20813,7 +20813,7 @@ msgstr "Ponavlja {0}"
 #: frappe/contacts/doctype/contact/contact.json
 #: frappe/core/doctype/communication/communication.json
 msgid "Replied"
-msgstr ""
+msgstr "Odgovoreno"
 
 #. Label of a Text Editor field in DocType 'Discussion Reply'
 #: frappe/core/doctype/communication/communication.js:57
@@ -21124,7 +21124,7 @@ msgstr "Res: {0}"
 #: frappe/desk/doctype/module_onboarding/module_onboarding.js:17
 #: frappe/website/doctype/portal_settings/portal_settings.js:19
 msgid "Reset"
-msgstr ""
+msgstr "Poništi"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:136
 msgid "Reset All Customizations"
@@ -24205,7 +24205,7 @@ msgstr "Označite nas zvjezdicom na GitHubu"
 #: frappe/printing/page/print/print.js:296
 #: frappe/printing/page/print/print.js:343
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #. Label of a Date field in DocType 'Auto Repeat'
 #. Label of a Datetime field in DocType 'Web Page'
@@ -24628,7 +24628,7 @@ msgstr "Podnijeti {0} dokumente?"
 #: frappe/public/js/frappe/ui/filters/filter.js:531
 #: frappe/website/doctype/web_form/templates/web_form.html:133
 msgid "Submitted"
-msgstr ""
+msgstr "Potvrđeno"
 
 #: frappe/workflow/doctype/workflow/workflow.py:104
 msgid "Submitted Document cannot be converted back to draft. Transition row {0}"
@@ -25247,7 +25247,7 @@ msgstr ""
 #: frappe/desk/doctype/todo/todo_calendar.js:19
 #: frappe/desk/doctype/todo/todo_calendar.js:25
 msgid "Task"
-msgstr ""
+msgstr "Zadatak"
 
 #. Label of a Section Break field in DocType 'About Us Settings'
 #. Label of a Table field in DocType 'About Us Settings'
