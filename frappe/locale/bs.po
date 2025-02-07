@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-06 07:12\n"
+"PO-Revision-Date: 2025-02-07 08:07\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -17877,7 +17877,7 @@ msgstr ""
 #: frappe/core/report/transaction_log_report/transaction_log_report.py:100
 #: frappe/social/doctype/energy_point_rule/energy_point_rule.js:42
 msgid "Owner"
-msgstr ""
+msgstr "Odgovorni"
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
@@ -22182,7 +22182,7 @@ msgstr "Skripte"
 #: frappe/public/js/frappe/ui/toolbar/search.js:68
 #: frappe/templates/includes/search_template.html:26 frappe/www/search.py:19
 msgid "Search"
-msgstr ""
+msgstr "Traži"
 
 #. Label of a Check field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -22374,7 +22374,7 @@ msgstr "Viđeno prema tabeli"
 #: frappe/website/doctype/web_form_field/web_form_field.json
 #: frappe/website/doctype/web_template_field/web_template_field.json
 msgid "Select"
-msgstr ""
+msgstr "Odaberi"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:149
 #: frappe/public/js/frappe/form/controls/multicheck.js:166
@@ -23136,7 +23136,7 @@ msgstr "Postavi svojstvo nakon upozorenja"
 #: frappe/public/js/frappe/form/link_selector.js:207
 #: frappe/public/js/frappe/form/link_selector.js:208
 msgid "Set Quantity"
-msgstr ""
+msgstr "Postavi Količinu"
 
 #. Label of a Select field in DocType 'Role Permission for Page and Report'
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
@@ -23554,7 +23554,7 @@ msgstr "Prikaži dozvole"
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:18
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:54
 msgid "Show Preview"
-msgstr ""
+msgstr "Prikaži Pregled"
 
 #. Label of a Check field in DocType 'DocType'
 #. Label of a Check field in DocType 'Customize Form'
