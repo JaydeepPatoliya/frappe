@@ -389,7 +389,7 @@ frappe.Application = class Application {
 		frappe.app.redirect_to_login();
 	}
 	redirect_to_login() {
-		if (frappe.boot.fc_communication_secret) {
+		if (frappe.boot.is_fc_site) {
 			const frappeCloudBaseEndpoint = "https://frappecloud.com";
 			window.location.href = `${frappeCloudBaseEndpoint}/dashboard/site-login`;
 		} else {

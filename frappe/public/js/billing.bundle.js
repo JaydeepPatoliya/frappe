@@ -2,7 +2,7 @@ const frappeCloudBaseEndpoint = "https://frappecloud.com";
 
 $(document).ready(function () {
 	if (
-		frappe.boot.fc_communication_secret &&
+		frappe.boot.is_fc_site &&
 		frappe.boot.setup_complete === 1 &&
 		!frappe.is_mobile() &&
 		frappe.user.has_role("System Manager")

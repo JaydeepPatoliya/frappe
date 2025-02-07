@@ -111,6 +111,7 @@ def get_bootinfo():
 	bootinfo.translated_doctypes = get_translated_doctypes()
 	bootinfo.subscription_conf = add_subscription_conf()
 	bootinfo.marketplace_apps = get_marketplace_apps()
+	bootinfo.is_fc_site = on_frappecloud()
 	bootinfo.changelog_feed = get_changelog_feed_items()
 	bootinfo.enable_address_autocompletion = frappe.db.get_single_value(
 		"Geolocation Settings", "enable_address_autocompletion"
@@ -139,7 +140,7 @@ def load_conf_settings(bootinfo):
 	from frappe.core.api.file import get_max_file_size
 
 	bootinfo.max_file_size = get_max_file_size()
-	for key in ("developer_mode", "socketio_port", "file_watcher_port", "fc_communication_secret"):
+	for key in ("developer_mode", "socketio_port", "file_watcher_port"):
 		if key in frappe.conf:
 			bootinfo[key] = frappe.conf.get(key)
 
