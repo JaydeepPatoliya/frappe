@@ -31,6 +31,7 @@ frappe.ui.AppsSwitcher = class AppsSwitcher {
 	}
 	populate_apps_menu() {
 		this.add_private_app();
+		this.add_install_app();
 
 		this.add_website_select();
 		this.add_settings_select();
@@ -49,6 +50,22 @@ frappe.ui.AppsSwitcher = class AppsSwitcher {
 					>
 				</div>
 				<span class="app-item-title">${app.app_title}</span>
+			</a>
+		</div>`).appendTo(this.app_switcher_menu);
+	}
+
+	add_install_app() {
+		if (!frappe.boot.is_fc_site && !frappe.user.has_role("System Manager")) return;
+
+		const frappeCloudBaseUrl = "https://frappecloud.com";
+		const siteName = frappe.boot.sitename;
+		$(`<div class="app-item" data-app-name="install"
+			data-app-route="${frappeCloudBaseUrl}/dashboard/sites/${siteName}/apps">
+			<a>
+				<div class="sidebar-item-icon flex" style='align-items: center;'>
+					<i class='octicon octicon-plus app-logo' style='margin-left: 2px;'></i>
+				</div>
+				<span class="app-item-title">${__("Install App")}</span>
 			</a>
 		</div>`).appendTo(this.app_switcher_menu);
 	}
