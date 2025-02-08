@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-07 08:07\n"
+"PO-Revision-Date: 2025-02-08 08:08\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -19961,7 +19961,7 @@ msgstr "U redu čekanja {0} za podnošenje"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Quick Entry"
-msgstr ""
+msgstr "Brzi Unos"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:3
 msgid "Quick Help for Setting Permissions"
@@ -20733,7 +20733,7 @@ msgstr "Uklonjeno {0}"
 #: frappe/public/js/frappe/model/model.js:752
 #: frappe/public/js/frappe/views/treeview.js:277
 msgid "Rename"
-msgstr ""
+msgstr "Preimenuj"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:116
 #: frappe/custom/doctype/custom_field/custom_field.js:136
@@ -20952,7 +20952,7 @@ msgstr ""
 
 #: frappe/public/js/frappe/list/base_list.js:203
 msgid "Report View"
-msgstr ""
+msgstr "Pregled Izvještaja"
 
 #: frappe/core/doctype/doctype/doctype.py:1771
 msgid "Report cannot be set for Single types"
@@ -21338,7 +21338,7 @@ msgstr "Vraćanje dužine na {0} za '{1}' u '{2}'. Postavljanje dužine kao {3} 
 #. Option for the 'Type' (Select) field in DocType 'Energy Point Log'
 #: frappe/social/doctype/energy_point_log/energy_point_log.json
 msgid "Review"
-msgstr ""
+msgstr "Recenzija"
 
 #. Name of a DocType
 #: frappe/social/doctype/review_level/review_level.json
@@ -21841,7 +21841,7 @@ msgstr "Upravitelj Prodaje"
 #. Name of a role
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Sales Master Manager"
-msgstr ""
+msgstr "Glavni Upravitelj Prodaje"
 
 #. Name of a role
 #: frappe/contacts/doctype/address/address.json
@@ -23405,7 +23405,7 @@ msgstr "Dostava"
 
 #: frappe/public/js/frappe/form/templates/address_list.html:25
 msgid "Shipping Address"
-msgstr ""
+msgstr "Dostavna Adresa"
 
 #. Option for the 'Address Type' (Select) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
@@ -24107,7 +24107,7 @@ msgstr "Uvodna slika"
 #: frappe/public/js/frappe/web_form/web_form_list.js:175
 #: frappe/templates/print_formats/standard_macros.html:44
 msgid "Sr"
-msgstr ""
+msgstr "Red"
 
 #: frappe/public/js/print_format_builder/Field.vue:143
 #: frappe/public/js/print_format_builder/Field.vue:164
@@ -24409,12 +24409,12 @@ msgstr "Koraci za provjeru vaše prijave"
 
 #: frappe/core/doctype/recorder/recorder_list.js:87
 msgid "Stop"
-msgstr ""
+msgstr "Zaustavi"
 
 #. Label of a Check field in DocType 'Scheduled Job Type'
 #: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
 msgid "Stopped"
-msgstr ""
+msgstr "Zaustavljeno"
 
 #. Label of a Float field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
@@ -25206,7 +25206,7 @@ msgstr "Tabloid"
 #. Name of a DocType
 #: frappe/desk/doctype/tag/tag.json
 msgid "Tag"
-msgstr ""
+msgstr "Oznaka"
 
 #. Name of a DocType
 #: frappe/desk/doctype/tag_link/tag_link.json
@@ -25242,7 +25242,7 @@ msgstr "Uslikaj"
 #: frappe/website/doctype/portal_menu_item/portal_menu_item.json
 #: frappe/website/doctype/website_route_redirect/website_route_redirect.json
 msgid "Target"
-msgstr ""
+msgstr "Cilj"
 
 #: frappe/desk/doctype/todo/todo_calendar.js:19
 #: frappe/desk/doctype/todo/todo_calendar.js:25
@@ -25280,7 +25280,7 @@ msgstr "Telemetrija"
 #: frappe/printing/doctype/print_format_field_template/print_format_field_template.json
 #: frappe/website/doctype/web_template/web_template.json
 msgid "Template"
-msgstr ""
+msgstr "Šablon"
 
 #: frappe/core/doctype/data_import/importer.py:476
 #: frappe/core/doctype/data_import/importer.py:603
@@ -26246,7 +26246,7 @@ msgstr "Vremenska oznaka"
 #: frappe/website/doctype/website_sidebar/website_sidebar.json
 #: frappe/website/doctype/website_sidebar_item/website_sidebar_item.json
 msgid "Title"
-msgstr ""
+msgstr "Naziv"
 
 #. Label of a Data field in DocType 'DocType'
 #. Label of a Data field in DocType 'Customize Form'
