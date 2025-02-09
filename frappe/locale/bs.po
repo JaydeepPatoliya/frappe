@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-08 08:08\n"
+"PO-Revision-Date: 2025-02-09 08:43\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -20357,7 +20357,7 @@ msgstr "Referenca"
 #. Label of a Select field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
 msgid "Reference Date"
-msgstr ""
+msgstr "Referentni Datum"
 
 #. Label of a Data field in DocType 'Email Queue'
 #: frappe/email/doctype/email_queue/email_queue.json
@@ -20480,7 +20480,7 @@ msgstr "Referentna vrsta dokumenta"
 #: frappe/social/doctype/energy_point_log/energy_point_log.json
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 msgid "Reference Name"
-msgstr ""
+msgstr "Referentni Naziv"
 
 #. Label of a Read Only field in DocType 'Activity Log'
 #. Label of a Data field in DocType 'Comment'
@@ -20535,7 +20535,7 @@ msgstr "Preporučilac"
 #: frappe/public/js/frappe/widgets/number_card_widget.js:324
 #: frappe/public/js/print_format_builder/Preview.vue:24
 msgid "Refresh"
-msgstr ""
+msgstr "Osvježi"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:177
 msgid "Refresh All"
@@ -21299,7 +21299,7 @@ msgstr "Nastavi slanje"
 #: frappe/desk/page/setup_wizard/setup_wizard.js:285
 #: frappe/email/doctype/email_queue/email_queue.json
 msgid "Retry"
-msgstr ""
+msgstr "Ponovi"
 
 #: frappe/email/doctype/email_queue/email_queue_list.js:47
 msgid "Retry Sending"
@@ -23814,7 +23814,7 @@ msgstr "Stranica radi u načinu samo za čitanje radi održavanja ili ažuriranj
 
 #: frappe/public/js/frappe/views/file/file_view.js:318
 msgid "Size"
-msgstr ""
+msgstr "Veličina"
 
 #. Label of a Float field in DocType 'System Health Report Tables'
 #: frappe/desk/doctype/system_health_report_tables/system_health_report_tables.json
@@ -28646,7 +28646,7 @@ msgstr "E-pošta dobrodošlice poslana"
 
 #: frappe/core/doctype/user/user.py:411
 msgid "Welcome to {0}"
-msgstr ""
+msgstr "Dobrodošli u {0}"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:62
 msgid "What's New"
@@ -29687,7 +29687,7 @@ msgstr "dopuni"
 
 #: frappe/public/js/frappe/utils/utils.js:410 frappe/utils/data.py:1376
 msgid "and"
-msgstr ""
+msgstr "i"
 
 #. Option for the 'Icon' (Select) field in DocType 'Workflow State'
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
