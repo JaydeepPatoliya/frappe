@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-04 05:51\n"
+"PO-Revision-Date: 2025-02-10 08:44\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -993,7 +993,7 @@ msgstr "لاگ فعالیت"
 #: frappe/public/js/frappe/views/reports/query_report.js:294
 #: frappe/public/js/frappe/widgets/widget_dialog.js:30
 msgid "Add"
-msgstr "اضافه کردن"
+msgstr "افزودن"
 
 #: frappe/public/js/frappe/list/list_view.js:266
 msgctxt "Primary action in list view"
@@ -1006,7 +1006,7 @@ msgstr "اضافه / حذف ستون ها"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:4
 msgid "Add / Update"
-msgstr "اضافه کردن / به روز رسانی"
+msgstr "افزودن / به روز رسانی"
 
 #: frappe/core/page/permission_manager/permission_manager.js:435
 msgid "Add A New Rule"
@@ -1020,7 +1020,7 @@ msgstr "پیوست را اضافه کنید"
 #. Label of a Check field in DocType 'Web Page Block'
 #: frappe/website/doctype/web_page_block/web_page_block.json
 msgid "Add Background Image"
-msgstr "اضافه کردن تصویر پس زمینه"
+msgstr "افزودن تصویر پس زمینه"
 
 #. Title of an Onboarding Step
 #: frappe/website/onboarding_step/add_blog_category/add_blog_category.json
@@ -1039,7 +1039,7 @@ msgstr "حاشیه را در بالا اضافه کنید"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:210
 msgid "Add Chart to Dashboard"
-msgstr "اضافه کردن نمودار به داشبورد"
+msgstr "افزودن نمودار به داشبورد"
 
 #: frappe/public/js/frappe/views/treeview.js:267
 msgid "Add Child"
@@ -1052,7 +1052,7 @@ msgstr "افزودن فرزند"
 #: frappe/public/js/frappe/views/reports/report_view.js:350
 #: frappe/public/js/print_format_builder/Field.vue:112
 msgid "Add Column"
-msgstr "اضافه کردن ستون"
+msgstr "افزودن ستون"
 
 #: frappe/core/doctype/communication/communication.js:127
 msgid "Add Contact"
@@ -1085,7 +1085,7 @@ msgstr "پس زمینه خاکستری را اضافه کنید"
 #: frappe/public/js/frappe/ui/group_by/group_by.js:230
 #: frappe/public/js/frappe/ui/group_by/group_by.js:418
 msgid "Add Group"
-msgstr "اضافه کردن گروه"
+msgstr "افزودن گروه"
 
 #: frappe/core/doctype/recorder/recorder.js:30
 msgid "Add Indexes"
@@ -1101,7 +1101,7 @@ msgstr "قانون مجوز جدید را اضافه کنید"
 
 #: frappe/desk/doctype/event/event.js:35 frappe/desk/doctype/event/event.js:42
 msgid "Add Participants"
-msgstr "شرکت کنندگان اضافه کردن"
+msgstr "افزودن شرکت کنندگان"
 
 #. Label of a Check field in DocType 'Email Group'
 #: frappe/email/doctype/email_group/email_group.json
@@ -1114,7 +1114,7 @@ msgstr "افزودن نظر"
 
 #: frappe/core/doctype/user/user.py:751
 msgid "Add Roles"
-msgstr "اضافه کردن نقش ها"
+msgstr "افزودن نقش ها"
 
 #: frappe/public/js/frappe/form/grid.js:63
 msgid "Add Row"
@@ -1124,7 +1124,7 @@ msgstr "افزودن ردیف"
 #: frappe/email/doctype/email_account/email_account.json
 #: frappe/public/js/frappe/views/communication.js:121
 msgid "Add Signature"
-msgstr "اضافه کردن امضا"
+msgstr "افزودن امضا"
 
 #. Label of a Check field in DocType 'Web Page Block'
 #: frappe/website/doctype/web_page_block/web_page_block.json
@@ -1134,7 +1134,7 @@ msgstr "فضای پایین را اضافه کنید"
 #. Label of a Check field in DocType 'Web Page Block'
 #: frappe/website/doctype/web_page_block/web_page_block.json
 msgid "Add Space at Top"
-msgstr "اضافه کردن فضا در بالا"
+msgstr "افزودن فضا در بالا"
 
 #: frappe/email/doctype/email_group/email_group.js:38
 #: frappe/email/doctype/email_group/email_group.js:59
@@ -1152,7 +1152,7 @@ msgstr "افزودن برچسب"
 
 #: frappe/public/js/frappe/views/communication.js:418
 msgid "Add Template"
-msgstr "اضافه کردن الگو"
+msgstr "افزودن الگو"
 
 #. Label of a Check field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
@@ -1236,7 +1236,7 @@ msgstr "افزودن شکست صفحه"
 
 #: frappe/custom/doctype/client_script/client_script.js:16
 msgid "Add script for Child Table"
-msgstr "اضافه کردن اسکریپت برای جدول فرزند"
+msgstr "افزودن اسکریپت برای جدول فرزند"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:111
 msgid "Add section above"
@@ -4486,11 +4486,11 @@ msgstr "پاک کردن"
 
 #: frappe/public/js/frappe/views/communication.js:423
 msgid "Clear & Add Template"
-msgstr "پاک کردن و اضافه کردن الگو"
+msgstr "پاک کردن و افزودن الگو"
 
 #: frappe/public/js/frappe/views/communication.js:102
 msgid "Clear & Add template"
-msgstr "پاک کردن و اضافه کردن الگو"
+msgstr "پاک کردن و افزودن الگو"
 
 #: frappe/public/js/frappe/list/list_view.js:1864
 msgctxt "Button in list view actions menu"
