@@ -8,7 +8,8 @@ endblock -%} {%- block footer -%} {%- endblock -%} {% block content %}
 <div class="container">
 	<div class="apps-container">
 		<div class="title">{{ _('Select an app to continue') }}</div>
-		{% set appsCount = apps|length if apps|length <= 6 else 6 %}
+		{% set appsCountPad = 1 if is_fc_site else 0 %}
+		{% set appsCount = apps|length + appsCountPad if apps|length <= (6 - appsCountPad) else 6 %}
 		<div class="apps" style="grid-template-columns: repeat({{ appsCount }}, 1fr);">
 			{% for app in apps %}
 			<a href="{{ app.route }}" class="app-icon">
@@ -38,6 +39,21 @@ endblock -%} {%- block footer -%} {%- endblock -%} {% block content %}
 				<div class="app-title">{{ app.title }}</div>
 			</a>
 			{% endfor %}
+
+			{% if is_fc_site %}
+			<a href="{{ install_app_route }}" class="app-icon">
+				<div class="app-logo">
+					<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
+						stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+						class="lucide lucide-plus">
+						<path d="M5 12h14" />
+						<path d="M12 5v14" />
+					</svg>
+				</div>
+				<div class="app-title">{{ _('Install App') }}</div>
+			</a>
+			{% endif %}
+
 		</div>
 		<button class="logout-btn btn btn-default">
 			<svg
