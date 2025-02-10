@@ -19,14 +19,22 @@ $(document).ready(function () {
 					);
 
 					$(".upgrade-plan-button").on("click", function () {
-						window.route = "site-dashboard";
+						if (response.is_payment_method_added) {
+							window.redirect_route = "/dashboard/sites/" + frappe.boot.sitename;
+						} else {
+							window.redirect_route = "/dashboard/welcome";
+						}
 						initiateRequestForLoginToFrappeCloud();
 					});
 				}
 				addLoginToFCDropdownItem();
 
 				$(".login-to-fc").on("click", function () {
-					window.route = "dashboard";
+					if (response.is_payment_method_added) {
+						window.redirect_route = "/dashboard";
+					} else {
+						window.redirect_route = "/dashboard/welcome";
+					}
 					initiateRequestForLoginToFrappeCloud();
 				});
 			},
@@ -40,21 +48,15 @@ function initiateRequestForLoginToFrappeCloud() {
 	});
 }
 
-function requestLoginToFC(freezing_msg = "Initiating login to Frappe Cloud...") {
+function requestLoginToFC(freeze_msg = "Initiating login to Frappe Cloud...") {
 	frappe.call({
 		method: "frappe.integrations.frappe_providers.frappecloud_billing.send_verification_code",
-		args: {
-			route: window.route,
-		},
 		freeze: true,
-		freeze_message: __(freezing_msg),
+		freeze_message: __(freeze_msg),
 		callback: function (r) {
-			if (r.message.is_user_logged_in) {
-				window.open(`${frappeCloudBaseEndpoint}${r.message.redirect_to}`, "_blank");
+			if (r.message) {
+				window.open(`${frappeCloudBaseEndpoint}${window.redirect_route}`, "_blank");
 				return;
-			} else {
-				showFCLoginDialog(r.message.email);
-				setErrorMessage("");
 			}
 		},
 		error: function (r) {
@@ -65,87 +67,6 @@ function requestLoginToFC(freezing_msg = "Initiating login to Frappe Cloud...") 
 
 function setErrorMessage(message) {
 	$("#fc-login-error").text(message);
-}
-
-function showFCLoginDialog(email) {
-	if (!window.fc_login_dialog) {
-		var d = new frappe.ui.Dialog({
-			title: __("Login to Frappe Cloud"),
-			primary_action_label: __("Verify", null, "Submit verification code"),
-			primary_action: verifyCode,
-		});
-
-		$(d.body).html(
-			repl(
-				`<div>
-			<p>We have sent the verification code to your email id <strong>${email}</strong></p>
-			<div class="form-group mt-2">
-				<div class="clearfix">
-					<label class="control-label" style="padding-right: 0px;">Verification Code</label>
-				</div>
-				<div class="control-input-wrapper">
-					<div class="control-input"><input type="text" class="input-with-feedback form-control" id="fc-login-verification-code"></div>
-				</div>
-			</div>
-			<p class="text-danger" id="fc-login-error"></p>
-		</div>`,
-				frappe.app
-			)
-		);
-
-		d.add_custom_action("Didn't receive code? Resend", () => {
-			d.hide();
-			requestLoginToFC("Resending Verification Code...");
-		});
-
-		window.fc_login_dialog = d;
-	}
-
-	function verifyCode() {
-		let otp = $("#fc-login-verification-code").val();
-		if (!otp) {
-			return;
-		}
-		frappe.call({
-			method: "frappe.integrations.frappe_providers.frappecloud_billing.verify_verification_code",
-			args: {
-				verification_code: otp,
-				route: window.route,
-			},
-			freeze: true,
-			freeze_message: __("Verifying verification code..."),
-			callback: function (r) {
-				const message = r.message;
-				if (message.login_token) {
-					window.fc_login_dialog.hide();
-					window.open(
-						`${frappeCloudBaseEndpoint}/api/method/press.api.developer.saas.login_to_fc?token=${message.login_token}`,
-						"_blank"
-					);
-					frappe.msgprint({
-						title: __("Frappe Cloud Login Successful"),
-						indicator: "green",
-						message: `<p>${__(
-							"You will be redirected to Frappe Cloud soon."
-						)}</p><p>${__(
-							"If you haven't been redirected,"
-						)} <a href="${frappeCloudBaseEndpoint}/api/method/press.api.developer.saas.login_to_fc?token=${
-							message.login_token
-						}" target="_blank">${__("Click here to login")}</a></p>`,
-					});
-				} else {
-					setErrorMessage("Login failed. Please try again");
-				}
-			},
-			error: function (r) {
-				if (r.exc) {
-					setErrorMessage(JSON.parse(JSON.parse(r._server_messages)[0])["message"]);
-				}
-			},
-		});
-	}
-
-	window.fc_login_dialog.show();
 }
 
 function addLoginToFCDropdownItem() {

@@ -75,11 +75,11 @@ def is_fc_site():
 
 # login to frappe cloud dashboard
 @frappe.whitelist()
-def send_verification_code(route: str):
+def send_verification_code():
 	request = requests.post(
 		f"{get_base_url()}/api/method/press.api.developer.saas.send_verification_code",
 		headers=get_headers(),
-		json={"domain": get_site_name(), "route": route},
+		json={"domain": get_site_name()},
 	)
 	if request.status_code == 200:
 		return request.json().get("message")
