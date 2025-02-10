@@ -55,7 +55,7 @@ frappe.ui.AppsSwitcher = class AppsSwitcher {
 	}
 
 	add_install_app() {
-		if (!frappe.boot.is_fc_site && !frappe.user.has_role("System Manager")) return;
+		if (!frappe.boot.is_fc_site || !frappe.user.has_role("System Manager")) return;
 
 		const frappeCloudBaseUrl = "https://frappecloud.com";
 		const siteName = frappe.boot.sitename;
