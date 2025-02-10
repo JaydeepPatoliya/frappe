@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-09 08:43\n"
+"PO-Revision-Date: 2025-02-10 08:44\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -21911,7 +21911,7 @@ msgstr ""
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:15
 #: frappe/public/js/workflow_builder/workflow_builder.bundle.js:33
 msgid "Save"
-msgstr ""
+msgstr "Sačuvaj"
 
 #: frappe/core/doctype/user/user.js:332
 msgid "Save API Secret: {0}"
@@ -26034,7 +26034,7 @@ msgstr "URL sličice"
 #: frappe/desk/doctype/event/event.json
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Thursday"
-msgstr ""
+msgstr "Četvrtak"
 
 #. Option for the 'Type' (Select) field in DocType 'DocField'
 #. Label of a Datetime field in DocType 'Recorder'
