@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-10 08:44\n"
+"PO-Revision-Date: 2025-02-11 09:05\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr " u vaš preglednik"
 #. Condition'
 #: frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json
 msgid "!="
-msgstr ""
+msgstr "!="
 
 #. Description of the 'Org History Heading' (Data) field in DocType 'About Us
 #. Settings'
@@ -238,13 +238,13 @@ msgstr "; nije dozvoljeno u uslovu"
 #. Condition'
 #: frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json
 msgid "<"
-msgstr ""
+msgstr "<"
 
 #. Option for the 'Condition' (Select) field in DocType 'Document Naming Rule
 #. Condition'
 #: frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json
 msgid "<="
-msgstr ""
+msgstr "<="
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:569
 msgid "<b>{0}</b> is not a valid URL"
@@ -705,24 +705,24 @@ msgstr "<pre><code>doc.grand_total &gt; 0</code></pre>\n\n"
 #. Header text in the Welcome Workspace Workspace
 #: frappe/core/workspace/welcome_workspace/welcome_workspace.json
 msgid "<span class=\"h2\">Hi,</span>"
-msgstr ""
+msgstr "<span class=\"h2\">Zdravo,</span>"
 
 #. Header text in the Tools Workspace
 #: frappe/automation/workspace/tools/tools.json
 msgid "<span class=\"h4\"><b>Documents</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Dokumenti</b></span>"
 
 #. Header text in the Website Workspace
 #: frappe/website/workspace/website/website.json
 msgid "<span class=\"h4\"><b>Reports & Masters</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Izvještaji & Pristupi</b></span>"
 
 #. Header text in the Users Workspace
 #. Header text in the Integrations Workspace
 #: frappe/core/workspace/users/users.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Izvještaji &amp; Pristupi</b></span>"
 
 #. Header text in the Tools Workspace
 #. Header text in the Users Workspace
@@ -731,17 +731,17 @@ msgstr ""
 #: frappe/core/workspace/users/users.json
 #: frappe/website/workspace/website/website.json
 msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Prečice</b></span>"
 
 #. Header text in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "<span style=\"font-size: 18px; letter-spacing: 0.18px;\"><b>Components to build your app</b></span>"
-msgstr ""
+msgstr "<span style=\"font-size: 18px; letter-spacing: 0.18px;\"><b>Komponente za izgradnju vaše aplikacije</b></span>"
 
 #. Header text in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "<span style=\"font-size: 18px; letter-spacing: 0.18px;\"><b>Get started</b><br></span>"
-msgstr ""
+msgstr "<span style=\"font-size: 18px; letter-spacing: 0.18px;\"><b>Započni</b><br></span>"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:39
 msgid "<strong>Warning:</strong> This field is system generated and may be overwritten by a future update. Modify it using {0} instead."
@@ -2654,7 +2654,7 @@ msgstr "Korisnik pravila dodjele"
 
 #: frappe/automation/doctype/assignment_rule/assignment_rule.py:55
 msgid "Assignment Rule is not allowed on document type {0}"
-msgstr ""
+msgstr "Pravilo dodjele nije dozvoljeno na {0} tipu dokumenta"
 
 #. Label of a Section Break field in DocType 'Assignment Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
@@ -4756,7 +4756,7 @@ msgstr "Kliknite poveznicu ispod kako biste potvrdili svoj zahtjev"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:200
 msgid "Click on the lock icon to toggle public/private"
-msgstr ""
+msgstr "Klikni na ikonu katanca da biste prebacili javno/privatno"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:102
 #: frappe/integrations/doctype/google_contacts/google_contacts.py:41
@@ -6845,7 +6845,7 @@ msgstr "Zadani radni prostor"
 #. Description of the 'Currency' (Link) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Default display currency"
-msgstr ""
+msgstr "Standard Valuta"
 
 #: frappe/core/doctype/doctype/doctype.py:1338
 msgid "Default for 'Check' type of field {0} must be either '0' or '1'"
@@ -8745,7 +8745,7 @@ msgstr "E-pošta nije potvrđena sa {0}"
 
 #: frappe/email/doctype/email_queue/email_queue.js:18
 msgid "Email queue is currently suspended. Resume to automatically send emails."
-msgstr ""
+msgstr "Red e-pošte je trenutno obustavljen. Nastavi automatsko slanje e-pošte."
 
 #. Label of a Section Break field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
@@ -9817,7 +9817,7 @@ msgstr "Zahtjev za povratne informacije"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:30
 msgid "Female"
-msgstr ""
+msgstr "Žensko"
 
 #. Label of a Small Text field in DocType 'DocField'
 #. Label of a Small Text field in DocType 'Custom Field'
@@ -10976,7 +10976,7 @@ msgstr "Spol"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:33
 msgid "Genderqueer"
-msgstr ""
+msgstr "Rodni"
 
 #: frappe/www/contact.html:29
 msgid "General"
@@ -11948,7 +11948,7 @@ msgstr "Kako treba formatirati ovu valutu? Ako nije postavljeno, koristit će se
 #. Paragraph text in the Welcome Workspace Workspace
 #: frappe/core/workspace/welcome_workspace/welcome_workspace.json
 msgid "I guess you don't have access to any workspace yet, but you can create one just for yourself. Click on the <b>Create Workspace</b> button to create one.<br>"
-msgstr ""
+msgstr "Pretpostavljam da još nemate pristup nijednom radnom prostoru, ali ga možete kreirati samo za sebe. Kliknite na dugme <b>Kreiraj radni prostor</b> da biste ga kreirali.<br>"
 
 #: frappe/core/doctype/data_import/importer.py:1127
 #: frappe/core/doctype/data_import/importer.py:1133
@@ -12696,11 +12696,11 @@ msgstr "Netačan verifikacioni kod"
 
 #: frappe/model/document.py:1359
 msgid "Incorrect value in row {0}:"
-msgstr ""
+msgstr "Netačna vrijednost u redu {0}:"
 
 #: frappe/model/document.py:1361
 msgid "Incorrect value:"
-msgstr ""
+msgstr "Netačna vrijednost:"
 
 #. Label of a Check field in DocType 'DocField'
 #. Label of a Int field in DocType 'Recorder Query'
@@ -14891,7 +14891,7 @@ msgstr "MIT licenca"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:49
 msgid "Madam"
-msgstr ""
+msgstr "Madam"
 
 #. Label of a Text Editor field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -14932,7 +14932,7 @@ msgstr "Neka \"ime\" bude pretraživo u globalnoj pretrazi"
 #. Label of a Check field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
 msgid "Make Attachment Public (by default)"
-msgstr ""
+msgstr "Učini prilog javnim (standard)"
 
 #. Label of a Check field in DocType 'DocType'
 #. Label of a Check field in DocType 'Customize Form'
@@ -14961,13 +14961,13 @@ msgstr "Stranicu čini javnom"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:29
 msgid "Male"
-msgstr ""
+msgstr "Muško"
 
 #. Label of a standard navbar item
 #. Type: Route
 #: frappe/hooks.py
 msgid "Manage Billing"
-msgstr ""
+msgstr "Upravljaj Fakturisanjem"
 
 #: frappe/www/me.html:50
 msgid "Manage third party apps"
@@ -15507,7 +15507,7 @@ msgstr "Pogrešno konfigurisano"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:50
 msgid "Miss"
-msgstr ""
+msgstr "Gospođica"
 
 #: frappe/desk/form/meta.py:213
 msgid "Missing DocType"
@@ -15851,15 +15851,15 @@ msgstr "Mozilla ne podržava :has() tako da ovdje možete proslijediti nadređen
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:44
 msgid "Mr"
-msgstr ""
+msgstr "Mr"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:48
 msgid "Mrs"
-msgstr ""
+msgstr "Gđa"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:45
 msgid "Ms"
-msgstr ""
+msgstr "Gđa"
 
 #: frappe/utils/nestedset.py:335
 msgid "Multiple root nodes not allowed."
@@ -15904,7 +15904,7 @@ msgstr "Utišaj zvukove"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:46
 msgid "Mx"
-msgstr ""
+msgstr "Mx"
 
 #: frappe/templates/includes/web_sidebar.html:41
 #: frappe/website/doctype/web_form/web_form.py:400
@@ -16124,7 +16124,7 @@ msgstr "Postavke mrežnog štampača"
 #: frappe/website/doctype/web_form/templates/web_list.html:15
 #: frappe/www/list.html:19
 msgid "New"
-msgstr ""
+msgstr "Novi"
 
 #: frappe/public/js/frappe/views/interaction.js:15
 msgid "New Activity"
@@ -16795,7 +16795,7 @@ msgstr "Nije negativno"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:34
 msgid "Non-Conforming"
-msgstr ""
+msgstr "Neusklađen"
 
 #. Option for the 'Backup Frequency' (Select) field in DocType 'S3 Backup
 #. Settings'
@@ -17790,7 +17790,7 @@ msgstr "Opcije nisu postavljene za polje veze {0}"
 #: frappe/core/doctype/doctype_state/doctype_state.json
 #: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
 msgid "Orange"
-msgstr ""
+msgstr "Narandžasta"
 
 #. Label of a Code field in DocType 'Kanban Board Column'
 #: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
@@ -17827,7 +17827,7 @@ msgstr "Originalna vrijednost"
 #: frappe/desk/doctype/event/event.json
 #: frappe/desk/page/setup_wizard/install_fixtures.py:31
 msgid "Other"
-msgstr ""
+msgstr "Ostalo"
 
 #. Label of a Section Break field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -17872,7 +17872,7 @@ msgstr "Izlaz"
 #: frappe/desk/page/user_profile/user_profile.html:6
 #: frappe/public/js/frappe/form/templates/form_dashboard.html:5
 msgid "Overview"
-msgstr ""
+msgstr "Pregled"
 
 #: frappe/core/report/transaction_log_report/transaction_log_report.py:100
 #: frappe/social/doctype/energy_point_rule/energy_point_rule.js:42
@@ -19164,7 +19164,7 @@ msgstr "Predvidljive zamjene poput '@' umjesto 'a' ne pomažu mnogo."
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:35
 msgid "Prefer not to say"
-msgstr ""
+msgstr "Radije neću reći"
 
 #. Label of a Check field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
@@ -19599,7 +19599,7 @@ msgstr "Obrada..."
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:52
 msgid "Prof"
-msgstr ""
+msgstr "Prof"
 
 #. Group in User's connections
 #: frappe/core/doctype/user/user.json
@@ -19849,7 +19849,7 @@ msgstr "Upit / Skripta"
 #. Label of a Small Text field in DocType 'Contact Us Settings'
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Query Options"
-msgstr ""
+msgstr "Opcije Upita"
 
 #. Label of a Table field in DocType 'Connected App'
 #. Name of a DocType
@@ -20002,7 +20002,7 @@ msgstr "RQ Worker"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Random"
-msgstr ""
+msgstr "Nasumično"
 
 #: frappe/website/report/website_analytics/website_analytics.js:20
 msgid "Range"
@@ -20038,7 +20038,7 @@ msgstr "Ograničenje stope za prijavu putem e-pošte"
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 #: frappe/website/doctype/web_form_field/web_form_field.json
 msgid "Rating"
-msgstr ""
+msgstr "Ocjena"
 
 #. Label of a Code field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
@@ -20226,7 +20226,7 @@ msgstr "Skorašnji"
 #: frappe/email/doctype/email_queue/email_queue.json
 #: frappe/email/doctype/email_queue_recipient/email_queue_recipient.json
 msgid "Recipient"
-msgstr ""
+msgstr "Primatelj"
 
 #. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -20239,7 +20239,7 @@ msgstr "Primalac je odjavljen"
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json
 #: frappe/email/doctype/notification/notification.json
 msgid "Recipients"
-msgstr ""
+msgstr "Primatelji"
 
 #. Name of a DocType
 #: frappe/core/doctype/recorder/recorder.json
@@ -20296,7 +20296,7 @@ msgstr "Preusmjeravanje URI-ja"
 #: frappe/core/doctype/user/user.json
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Redirect URL"
-msgstr ""
+msgstr "URL za preusmjeravanje"
 
 #. Description of the 'Default App' (Select) field in DocType 'System Settings'
 #. Description of the 'Default App' (Select) field in DocType 'User'
@@ -20401,14 +20401,14 @@ msgstr "Referentni Doctype"
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 #: frappe/integrations/doctype/webhook_request_log/webhook_request_log.json
 msgid "Reference Document"
-msgstr ""
+msgstr "Referentni Dokument"
 
 #. Label of a Dynamic Link field in DocType 'Document Share Key'
 #. Label of a Dynamic Link field in DocType 'Integration Request'
 #: frappe/core/doctype/document_share_key/document_share_key.json
 #: frappe/integrations/doctype/integration_request/integration_request.json
 msgid "Reference Document Name"
-msgstr ""
+msgstr "Naziv Referentnog Dokumenta"
 
 #. Label of a Link field in DocType 'Auto Repeat'
 #. Label of a Link field in DocType 'Activity Log'
@@ -20503,7 +20503,7 @@ msgstr "Referentni izvještaj"
 #. Label of a Link field in DocType 'ToDo'
 #: frappe/desk/doctype/todo/todo.json
 msgid "Reference Type"
-msgstr ""
+msgstr "Referentni Tip"
 
 #: frappe/social/doctype/energy_point_rule/energy_point_rule.py:145
 msgid "Reference document has been cancelled"
@@ -20544,7 +20544,7 @@ msgstr "Osvježi sve"
 #. Label of a Button field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Refresh Google Sheet"
-msgstr ""
+msgstr "Osvježite Google Sheet"
 
 #. Label of a Password field in DocType 'Google Calendar'
 #. Label of a Password field in DocType 'Google Contacts'
@@ -20557,7 +20557,7 @@ msgstr ""
 #: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
 #: frappe/integrations/doctype/token_cache/token_cache.json
 msgid "Refresh Token"
-msgstr ""
+msgstr "Osvježi Token"
 
 #: frappe/public/js/frappe/list/list_view.js:506
 msgctxt "Document count in list view"
@@ -20579,7 +20579,7 @@ msgstr "Registrovan, ali onemogućen"
 #: frappe/core/doctype/communication/communication.json
 #: frappe/core/doctype/translation/translation.json
 msgid "Rejected"
-msgstr ""
+msgstr "Odbijeno"
 
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.py:30
 msgid "Relay Server URL missing"
@@ -20891,7 +20891,7 @@ msgstr "Filter izvještaja"
 #. Label of a Section Break field in DocType 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Report Filters"
-msgstr ""
+msgstr "Izvještajni Filteri"
 
 #. Label of a Check field in DocType 'DocField'
 #. Label of a Check field in DocType 'Custom Field'
@@ -20948,7 +20948,7 @@ msgstr "Referentni tip dokumenta izvještaja"
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Report Type"
-msgstr ""
+msgstr "Tip Izvještaja"
 
 #: frappe/public/js/frappe/list/base_list.js:203
 msgid "Report View"
@@ -21091,7 +21091,7 @@ msgstr "Zahtjev je istekao"
 #: frappe/integrations/doctype/webhook/webhook.json
 #: frappe/public/js/frappe/request.js:241
 msgid "Request Timeout"
-msgstr ""
+msgstr "Zahtjev je Istekao"
 
 #. Label of a Small Text field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
@@ -21778,7 +21778,7 @@ msgstr "SMS parametar"
 #: frappe/core/doctype/sms_settings/sms_settings.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "SMS Settings"
-msgstr ""
+msgstr "SMS Postavke"
 
 #: frappe/core/doctype/sms_settings/sms_settings.py:109
 msgid "SMS sent successfully"
@@ -21885,7 +21885,7 @@ msgstr "Uzorak"
 #: frappe/desk/doctype/event/event.json
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Saturday"
-msgstr ""
+msgstr "Subota"
 
 #. Option for the 'Send Alert On' (Select) field in DocType 'Notification'
 #: frappe/core/doctype/data_import/data_import.js:113
@@ -22105,7 +22105,7 @@ msgstr "Planer: Neaktivan"
 #. Label of a Data field in DocType 'OAuth Scope'
 #: frappe/integrations/doctype/oauth_scope/oauth_scope.json
 msgid "Scope"
-msgstr ""
+msgstr "Obim"
 
 #. Label of a Section Break field in DocType 'Connected App'
 #. Label of a Table field in DocType 'Connected App'
@@ -22856,7 +22856,7 @@ msgstr "Pošaljite poruku za odjavu putem e-pošte"
 #: frappe/email/doctype/newsletter/newsletter.json
 #: frappe/email/doctype/notification/notification.json
 msgid "Sender"
-msgstr ""
+msgstr "Pošiljalac"
 
 #. Label of a Data field in DocType 'Newsletter'
 #. Label of a Data field in DocType 'Notification'
@@ -23284,7 +23284,7 @@ msgstr "Postavljanje vašeg sistema"
 #: frappe/website/doctype/web_form/web_form.json
 #: frappe/website/doctype/web_page/web_page.json
 msgid "Settings"
-msgstr ""
+msgstr "Postavke"
 
 #. Label of a Table field in DocType 'Navbar Settings'
 #: frappe/core/doctype/navbar_settings/navbar_settings.json
@@ -23415,7 +23415,7 @@ msgstr "Trgovina"
 #. Label of a Data field in DocType 'Blogger'
 #: frappe/website/doctype/blogger/blogger.json
 msgid "Short Name"
-msgstr ""
+msgstr "Kratko Ime"
 
 #: frappe/utils/password_strength.py:85
 msgid "Short keyboard patterns are easy to guess"
@@ -23840,7 +23840,7 @@ msgstr "Preskoči korak"
 #. Label of a Check field in DocType 'Patch Log'
 #: frappe/core/doctype/patch_log/patch_log.json
 msgid "Skipped"
-msgstr ""
+msgstr "Preskočeno"
 
 #: frappe/core/doctype/data_import/importer.py:914
 msgid "Skipping Duplicate Column {0}"
@@ -24056,7 +24056,7 @@ msgstr "Izvor"
 #. Label of a Data field in DocType 'Dashboard Chart Source'
 #: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.json
 msgid "Source Name"
-msgstr ""
+msgstr "Naziv Izvora"
 
 #. Label of a Code field in DocType 'Translation'
 #: frappe/core/doctype/translation/translation.json
@@ -24232,7 +24232,7 @@ msgstr "Započni snimanje"
 #. Label of a Datetime field in DocType 'RQ Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
 msgid "Start Time"
-msgstr ""
+msgstr "Vrijeme Početka"
 
 #: frappe/templates/includes/comments/comments.html:8
 msgid "Start a new discussion"
@@ -24555,37 +24555,37 @@ msgstr "Red za podnošenje"
 #: frappe/social/doctype/energy_point_rule/energy_point_rule.json
 #: frappe/social/doctype/energy_point_settings/energy_point_settings.js:47
 msgid "Submit"
-msgstr ""
+msgstr "Potvrdi"
 
 #: frappe/public/js/frappe/list/list_view.js:1985
 msgctxt "Button in list view actions menu"
 msgid "Submit"
-msgstr ""
+msgstr "Potvrdi"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:44
 msgctxt "Button in web form"
 msgid "Submit"
-msgstr ""
+msgstr "Potvrdi"
 
 #: frappe/public/js/frappe/ui/dialog.js:60
 msgctxt "Primary action in dialog"
 msgid "Submit"
-msgstr ""
+msgstr "Potvrdi"
 
 #: frappe/public/js/frappe/ui/messages.js:97
 msgctxt "Primary action of prompt dialog"
 msgid "Submit"
-msgstr ""
+msgstr "Potvrdi"
 
 #: frappe/public/js/frappe/desk.js:212
 msgctxt "Submit password for Email Account"
 msgid "Submit"
-msgstr ""
+msgstr "Potvrdi"
 
 #. Label of a Check field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Submit After Import"
-msgstr ""
+msgstr "Potvrdi Nakon Importa"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:39
 msgid "Submit an Issue"
@@ -24811,7 +24811,7 @@ msgstr "Sažetak"
 #: frappe/desk/doctype/event/event.json
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Sunday"
-msgstr ""
+msgstr "Nedjelja"
 
 #: frappe/email/doctype/email_queue/email_queue_list.js:27
 msgid "Suspend Sending"
@@ -25111,7 +25111,7 @@ msgstr "Stranica sistema"
 #: frappe/core/doctype/system_settings/system_settings.json
 #: frappe/core/workspace/build/build.json
 msgid "System Settings"
-msgstr ""
+msgstr "Postavke Sistema"
 
 #. Description of the 'Allow Roles' (Table MultiSelect) field in DocType
 #. 'Module Onboarding'
@@ -25295,12 +25295,12 @@ msgstr "Datoteka šablona"
 #. Label of a Code field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Template Options"
-msgstr ""
+msgstr "Opcije Šablona"
 
 #. Label of a Code field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Template Warnings"
-msgstr ""
+msgstr "Šablon Upozorenja"
 
 #: frappe/public/js/frappe/views/workspace/blocks/paragraph.js:78
 msgid "Templates"
@@ -25427,7 +25427,7 @@ msgstr "ID klijenta dobijen sa Google Cloud Console pod <a href=\"https://consol
 
 #: frappe/email/doctype/notification/notification.py:131
 msgid "The Condition '{0}' is invalid"
-msgstr ""
+msgstr "Uvjet '{0}' je nevažeći"
 
 #: frappe/core/doctype/file/file.py:204
 msgid "The File URL you've entered is incorrect"
@@ -25721,7 +25721,7 @@ msgstr "Bilo je grešaka prilikom kreiranja dokumenta. Molimo pokušajte ponovo.
 
 #: frappe/public/js/frappe/views/communication.js:828
 msgid "There were errors while sending email. Please try again."
-msgstr ""
+msgstr "Bilo je grešaka prilikom slanja e-pošte. Molimo pokušajte ponovo."
 
 #: frappe/model/naming.py:468
 msgid "There were some errors setting the name, please contact the administrator"
@@ -26135,7 +26135,7 @@ msgstr "Bezvremenska noć"
 #. Label of a Check field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Timeline"
-msgstr ""
+msgstr "Vremenska Linija"
 
 #. Label of a Link field in DocType 'Activity Log'
 #: frappe/core/doctype/activity_log/activity_log.json
@@ -26432,7 +26432,7 @@ msgstr "Uključi prikaz mreže"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:212
 msgid "Toggle Section: {0}"
-msgstr ""
+msgstr "Prebaci Sekciju: {0}"
 
 #: frappe/public/js/frappe/ui/page.js:193
 #: frappe/public/js/frappe/ui/page.js:195
@@ -26607,7 +26607,7 @@ msgstr "Ukupno korisnika"
 #. Label of a Int field in DocType 'Newsletter'
 #: frappe/email/doctype/newsletter/newsletter.json
 msgid "Total Views"
-msgstr ""
+msgstr "Ukupno Pregleda"
 
 #. Label of a Duration field in DocType 'RQ Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
@@ -26626,7 +26626,7 @@ msgstr "Ukupno:"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1209
 msgid "Totals"
-msgstr ""
+msgstr "Ukupno"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1184
 msgid "Totals Row"
@@ -26712,7 +26712,7 @@ msgstr "Izvještaj dnevnika transakcija"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:32
 msgid "Transgender"
-msgstr ""
+msgstr "Transrodno"
 
 #: frappe/public/js/workflow_builder/components/Properties.vue:19
 msgid "Transition Properties"
@@ -26847,7 +26847,7 @@ msgstr "Pokušajte koristiti duži uzorak tastature s više okreta"
 #: frappe/desk/doctype/event/event.json
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Tuesday"
-msgstr ""
+msgstr "Utorak"
 
 #. Label of a Check field in DocType 'Role'
 #. Label of a Section Break field in DocType 'System Settings'
@@ -26973,7 +26973,7 @@ msgstr "URI-ovi za primanje autorizacijskog koda nakon što korisnik dopusti pri
 #: frappe/website/doctype/top_bar_item/top_bar_item.json
 #: frappe/website/doctype/website_slideshow_item/website_slideshow_item.json
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. Description of the 'Documentation Link' (Data) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -27076,7 +27076,7 @@ msgstr "Jedinstveno"
 
 #: frappe/website/report/website_analytics/website_analytics.js:59
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #: frappe/public/js/frappe/model/model.js:209
 msgid "Unknown Column: {0}"
@@ -27200,7 +27200,7 @@ msgstr "Ažuriranje pojedinosti"
 #. Option for the 'Import Type' (Select) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Update Existing Records"
-msgstr ""
+msgstr "Ažurirajte Postojeće Zapise"
 
 #. Label of a Select field in DocType 'Workflow Document State'
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
@@ -27394,7 +27394,7 @@ msgstr "Koristi IMAP"
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Use Number Format from Currency"
-msgstr ""
+msgstr "Koristi Brojčani komma format iz Valute"
 
 #. Label of a Check field in DocType 'SMS Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
@@ -27568,7 +27568,7 @@ msgstr "Korisničke zadane postavke"
 #. Label of a Tab Break field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "User Details"
-msgstr ""
+msgstr "Korisnički Detalji"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_document_type/user_document_type.json
@@ -27612,7 +27612,7 @@ msgstr "Članovi korisničke grupe"
 #. Label of a Data field in DocType 'User Social Login'
 #: frappe/core/doctype/user_social_login/user_social_login.json
 msgid "User ID"
-msgstr ""
+msgstr "Korisnički ID"
 
 #. Label of a Data field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
@@ -27810,7 +27810,7 @@ msgstr "Korisnik {0} predstavljen kao {1}"
 
 #: frappe/utils/oauth.py:271
 msgid "User {0} is disabled"
-msgstr ""
+msgstr "Korisnik {0} je onemogućen"
 
 #: frappe/sessions.py:231
 msgid "User {0} is disabled. Please contact your System Manager."
@@ -27902,7 +27902,7 @@ msgstr "Greška pri validaciji"
 #. Label of a Select field in DocType 'OAuth Authorization Code'
 #: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json
 msgid "Validity"
-msgstr ""
+msgstr "Validnost"
 
 #. Label of a Data field in DocType 'Milestone'
 #. Label of a Text field in DocType 'DefaultValue'
@@ -27942,7 +27942,7 @@ msgstr "Vrijednost zasnovana na"
 #: frappe/email/doctype/notification/notification.json
 #: frappe/social/doctype/energy_point_rule/energy_point_rule.json
 msgid "Value Change"
-msgstr ""
+msgstr "Promjena Vrijednosti"
 
 #. Label of a Select field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -28015,7 +28015,7 @@ msgstr "Vrijednost {0} mora biti u {1} formatu"
 
 #: frappe/core/doctype/version/version_view.html:8
 msgid "Values Changed"
-msgstr ""
+msgstr "Vrijednosti su Promijenjene"
 
 #. Option for the 'Font' (Select) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -28181,7 +28181,7 @@ msgstr "Pregledao"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/core/workspace/build/build.json
 msgid "Views"
-msgstr ""
+msgstr "Pregledi"
 
 #. Label of a Check field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
@@ -28227,7 +28227,7 @@ msgstr "Skladište"
 #. Option for the 'Style' (Select) field in DocType 'Workflow State'
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:217
 msgid "Warning: DATA LOSS IMMINENT! Proceeding will permanently delete following database columns from doctype {0}:"
@@ -28253,7 +28253,7 @@ msgstr "Pogledajte vodič"
 #. Option for the 'Action' (Select) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 msgid "Watch Video"
-msgstr ""
+msgstr "Pogledaj Video"
 
 #: frappe/desk/doctype/workspace/workspace.js:38
 msgid "We do not allow editing of this document. Simply click the Edit button on the workspace page to make your workspace editable and customize it as you wish"
@@ -28452,7 +28452,7 @@ msgstr "Analitika web stranice"
 #: frappe/website/doctype/website_slideshow/website_slideshow.json
 #: frappe/website/doctype/website_theme/website_theme.json
 msgid "Website Manager"
-msgstr ""
+msgstr "Upravitelj Web Stranice"
 
 #. Name of a DocType
 #: frappe/website/doctype/website_meta_tag/website_meta_tag.json
@@ -28476,7 +28476,7 @@ msgstr "Preusmjeravanje rute web stranice"
 #: frappe/website/doctype/website_script/website_script.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Script"
-msgstr ""
+msgstr "Skripta Web Stranice"
 
 #. Label of a Data field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -28493,7 +28493,7 @@ msgstr "Polje za pretragu web stranice mora biti važeće ime polja"
 #: frappe/website/doctype/website_settings/website_settings.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Settings"
-msgstr ""
+msgstr "Postavke Web Stranice"
 
 #. Label of a Link field in DocType 'Web Form'
 #. Label of a Link field in DocType 'Web Page'
@@ -28532,7 +28532,7 @@ msgstr "Stavka prikaza slajdova web stranice"
 #: frappe/website/doctype/website_theme/website_theme.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Theme"
-msgstr ""
+msgstr "Tema Web Stranice"
 
 #. Name of a DocType
 #: frappe/website/doctype/website_theme_ignore_app/website_theme_ignore_app.json
@@ -28567,7 +28567,7 @@ msgstr "Websocket"
 #: frappe/desk/doctype/event/event.json
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Wednesday"
-msgstr ""
+msgstr "Srijeda"
 
 #: frappe/public/js/frappe/views/calendar/calendar.js:270
 msgid "Week"
@@ -28761,13 +28761,13 @@ msgstr "Naziv radnika"
 #: frappe/public/js/workflow_builder/store.js:129
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Workflow"
-msgstr ""
+msgstr "Radni Tok"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 #: frappe/workflow/doctype/workflow_action/workflow_action.py:477
 msgid "Workflow Action"
-msgstr ""
+msgstr "Radni Tok Akcija"
 
 #. Name of a DocType
 #. Description of a DocType
@@ -28945,7 +28945,7 @@ msgstr "Radni prostori"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.py:35
 msgid "Wrapping up"
-msgstr ""
+msgstr "Završava se.."
 
 #. Label of a Check field in DocType 'Custom DocPerm'
 #. Label of a Check field in DocType 'DocPerm'
@@ -29031,7 +29031,7 @@ msgstr "Godišnje"
 #: frappe/core/doctype/doctype_state/doctype_state.json
 #: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
 msgid "Yellow"
-msgstr ""
+msgstr "Žuta"
 
 #. Option for the 'Standard' (Select) field in DocType 'Page'
 #. Option for the 'Is Standard' (Select) field in DocType 'Report'
@@ -29399,7 +29399,7 @@ msgstr "Još niste dodali grafikon nadrzorne ploče ili kartice s brojevima."
 
 #: frappe/public/js/frappe/list/list_view.js:472
 msgid "You haven't created a {0} yet"
-msgstr ""
+msgstr "Još niste kreirali {0}"
 
 #: frappe/rate_limiter.py:150
 msgid "You hit the rate limit because of too many requests. Please try after sometime."
@@ -30430,7 +30430,7 @@ msgstr "ok-znak"
 #. Label of a Data field in DocType 'File'
 #: frappe/core/doctype/file/file.json
 msgid "old_parent"
-msgstr ""
+msgstr "stari_nadređeni"
 
 #. Option for the 'Doc Event' (Select) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
@@ -30469,7 +30469,7 @@ msgstr "samo."
 #: frappe/public/js/frappe/utils/utils.js:407 frappe/www/login.html:87
 #: frappe/www/login.py:107
 msgid "or"
-msgstr ""
+msgstr "ili"
 
 #. Option for the 'Indicator Color' (Select) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
@@ -31151,7 +31151,7 @@ msgstr "{0} je već otkazan za {1} {2}"
 
 #: frappe/utils/data.py:1530
 msgid "{0} and {1}"
-msgstr ""
+msgstr "{0} i {1}"
 
 #: frappe/public/js/frappe/utils/energy_point_utils.js:38
 msgid "{0} appreciated on {1}"
@@ -31414,7 +31414,7 @@ msgstr "{0} je kao {1}"
 
 #: frappe/email/doctype/email_account/email_account.py:168
 msgid "{0} is mandatory"
-msgstr ""
+msgstr "{0} je obavezan"
 
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.py:50
 msgid "{0} is not a field of doctype {1}"
@@ -31498,7 +31498,7 @@ msgstr "{0} je jedan od {1}"
 #: frappe/printing/doctype/print_format/print_format.py:92
 #: frappe/utils/csvutils.py:131
 msgid "{0} is required"
-msgstr ""
+msgstr "{0} je obavezan"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1445
 msgid "{0} is set"
@@ -31551,15 +31551,15 @@ msgstr "{0} mora biti iza {1}"
 
 #: frappe/model/document.py:1368
 msgid "{0} must be beginning with '{1}'"
-msgstr ""
+msgstr "{0} mora početi sa '{1}'"
 
 #: frappe/model/document.py:1370
 msgid "{0} must be equal to '{1}'"
-msgstr ""
+msgstr "{0} mora biti jednako '{1}'"
 
 #: frappe/model/document.py:1366
 msgid "{0} must be none of {1}"
-msgstr ""
+msgstr "{0} ne smije biti ni jedna od {1}"
 
 #: frappe/model/document.py:1364 frappe/utils/csvutils.py:136
 msgid "{0} must be one of {1}"
@@ -31575,7 +31575,7 @@ msgstr "{0} mora biti jedinstven"
 
 #: frappe/model/document.py:1372
 msgid "{0} must be {1} {2}"
-msgstr ""
+msgstr "{0} mora biti {1} {2}"
 
 #: frappe/core/doctype/language/language.py:43
 msgid "{0} must begin and end with a letter and can only contain letters,\n"
