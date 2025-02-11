@@ -4,7 +4,6 @@
 import frappe
 from frappe import _
 from frappe.apps import get_apps
-from frappe.integrations.frappe_providers.frappecloud_billing import is_fc_site
 
 
 def get_context():
@@ -21,8 +20,4 @@ def get_context():
 	for app in all_apps:
 		app["is_default"] = True if app.get("name") == default_app else False
 
-	return {
-		"apps": all_apps,
-		"is_fc_site": is_fc_site(),
-		"install_app_route": f"https://frappecloud.com/dashboard/sites/{frappe.local.site}/apps",
-	}
+	return {"apps": all_apps}
