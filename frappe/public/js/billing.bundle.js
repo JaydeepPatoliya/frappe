@@ -19,51 +19,31 @@ $(document).ready(function () {
 					);
 
 					$(".upgrade-plan-button").on("click", function () {
+						let redirect_route = "";
 						if (response.is_payment_method_added) {
-							window.redirect_route = "/dashboard/sites/" + frappe.boot.sitename;
+							redirect_route = "/dashboard/sites/" + frappe.boot.sitename;
 						} else {
-							window.redirect_route = "/dashboard/welcome";
+							redirect_route = "/dashboard/welcome";
 						}
-						initiateRequestForLoginToFrappeCloud();
+
+						window.open(`${frappeCloudBaseEndpoint}${redirect_route}`, "_blank");
 					});
 				}
 				addLoginToFCDropdownItem();
 
 				$(".login-to-fc").on("click", function () {
+					let redirect_route = "";
 					if (response.is_payment_method_added) {
-						window.redirect_route = "/dashboard";
+						redirect_route = "/dashboard";
 					} else {
-						window.redirect_route = "/dashboard/welcome";
+						redirect_route = "/dashboard/welcome";
 					}
-					initiateRequestForLoginToFrappeCloud();
+					window.open(`${frappeCloudBaseEndpoint}${redirect_route}`, "_blank");
 				});
 			},
 		});
 	}
 });
-
-function initiateRequestForLoginToFrappeCloud() {
-	frappe.confirm(__("Are you sure you want to login to Frappe Cloud dashboard?"), () => {
-		requestLoginToFC();
-	});
-}
-
-function requestLoginToFC(freeze_msg = "Initiating login to Frappe Cloud...") {
-	frappe.call({
-		method: "frappe.integrations.frappe_providers.frappecloud_billing.send_verification_code",
-		freeze: true,
-		freeze_message: __(freeze_msg),
-		callback: function (r) {
-			if (r.message) {
-				window.open(`${frappeCloudBaseEndpoint}${window.redirect_route}`, "_blank");
-				return;
-			}
-		},
-		error: function (r) {
-			frappe.throw(__("Failed to login to Frappe Cloud. Please try again"));
-		},
-	});
-}
 
 function setErrorMessage(message) {
 	$("#fc-login-error").text(message);
