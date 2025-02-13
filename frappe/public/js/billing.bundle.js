@@ -71,14 +71,13 @@ function generateTrialSubscriptionBanner(trialEndDate) {
 					align-items: center;
 					background-color: var(--subtle-accent);
 					border-radius: var(--border-radius-md);
-					box-shadow: var(--shadow-sm);
 				}
 				.trial-banner > div {
 					display: flex;
 					gap: 8px;
 				}
 				.trial-banner .info-icon {
-					margin: 4px 0;
+					margin: auto 0;
 				}
 				.trial-banner > div > div {
 					display: flex;
@@ -104,7 +103,7 @@ function generateTrialSubscriptionBanner(trialEndDate) {
 					border-color: var(--gray-400);
 				}
 			</style>
-			<div class="trial-banner px-3 py-2 m-2">
+			<div class="trial-banner px-3 py-2 m-2 mt-4">
 				<div>
 					<svg class="info-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g clip-path="url(#clip0_3360_13841)">
