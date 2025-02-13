@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-12 10:13\n"
+"PO-Revision-Date: 2025-02-13 10:40\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -31425,7 +31425,7 @@ msgstr "نقش {0} اجازه هیچ نوع doctype را ندارد"
 
 #: frappe/model/document.py:1608
 msgid "{0} row #{1}: "
-msgstr ""
+msgstr "{0} ردیف #{1}: "
 
 #: frappe/desk/query_report.py:589
 msgid "{0} saved successfully"
