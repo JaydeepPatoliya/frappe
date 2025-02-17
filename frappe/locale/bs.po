@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-12 10:13\n"
+"PO-Revision-Date: 2025-02-17 11:39\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -1272,7 +1272,7 @@ msgstr "Dodaj grupu"
 
 #: frappe/core/doctype/recorder/recorder.js:30
 msgid "Add Indexes"
-msgstr "Dodaj indekse"
+msgstr "Dodaj Indekse"
 
 #: frappe/public/js/frappe/form/grid.js:63
 msgid "Add Multiple"
@@ -1401,7 +1401,7 @@ msgstr "Dodaj {0} grafikon"
 #: frappe/public/js/form_builder/components/Section.vue:271
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:115
 msgid "Add column"
-msgstr "Dodaj kolonu"
+msgstr "Dodaj Kolonu"
 
 #: frappe/public/js/form_builder/components/AddFieldButton.vue:9
 #: frappe/public/js/form_builder/components/AddFieldButton.vue:48
@@ -1423,11 +1423,11 @@ msgstr "Dodajte skriptu za podređenu tablicu"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:111
 msgid "Add section above"
-msgstr "Dodaj odjeljak iznad"
+msgstr "Dodaj sekciju iznad"
 
 #: frappe/public/js/form_builder/components/Section.vue:265
 msgid "Add section below"
-msgstr "Dodajte odjeljak ispod"
+msgstr "Dodajte sekciju ispod"
 
 #: frappe/public/js/form_builder/components/Sidebar.vue:52
 #: frappe/public/js/form_builder/components/Tabs.vue:157
@@ -2050,7 +2050,7 @@ msgstr "Dozvoljeni moduli"
 #. Label of a Table MultiSelect field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "Allowed Roles"
-msgstr "Dozvoljene uloge"
+msgstr "Dozvoljene Uloge"
 
 #. Label of a Small Text field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -2144,7 +2144,7 @@ msgstr "Zaobiđi izmjenu imenovanja"
 
 #: frappe/model/document.py:408
 msgid "Amendment Not Allowed"
-msgstr "Izmjena nije dozvoljena"
+msgstr "Izmjena nije Dozvoljena"
 
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.py:207
 msgid "Amendment naming rules updated."
@@ -2552,7 +2552,7 @@ msgstr "Dodijeli"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:180
 msgid "Assign To User Group"
-msgstr "Dodijeli korisničkoj grupi"
+msgstr "Dodijeli Korisničkoj Grupi"
 
 #. Label of a Section Break field in DocType 'Assignment Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
@@ -2733,7 +2733,7 @@ msgstr "Priloži štampanje"
 
 #: frappe/public/js/frappe/file_uploader/WebLink.vue:10
 msgid "Attach a web link"
-msgstr "Priložite web link"
+msgstr "Priloži Web Vezu"
 
 #: frappe/website/doctype/website_slideshow/website_slideshow.js:8
 msgid "Attach files / urls and add in table."
@@ -2838,7 +2838,7 @@ msgstr "Auth URL podaci"
 #. Label of a Check field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Authenticate as Service Principal"
-msgstr "Autentifikujte se kao Osnovna Usluga"
+msgstr "Autentifikujte se kao Osnovni Servis"
 
 #. Label of a Section Break field in DocType 'Email Account'
 #. Label of a Section Break field in DocType 'Push Notification Settings'
@@ -3658,7 +3658,7 @@ msgstr "Odbijen"
 #. Label of a Section Break field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Brand"
-msgstr "Robna marka"
+msgstr "Marka"
 
 #. Label of a Code field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -9232,7 +9232,7 @@ msgstr "Dnevnik grešaka"
 #. Label of a Link in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Error Logs"
-msgstr "Dnevnici grešaka"
+msgstr "Zapisi Grešaka"
 
 #. Label of a Text field in DocType 'Prepared Report'
 #: frappe/core/doctype/prepared_report/prepared_report.json
@@ -12415,7 +12415,7 @@ msgstr "Uvoz"
 #. Label of a shortcut in the Tools Workspace
 #: frappe/automation/workspace/tools/tools.json
 msgid "Import Data"
-msgstr "Uvoz podataka"
+msgstr "Import Podataka"
 
 #: frappe/email/doctype/email_group/email_group.js:14
 msgid "Import Email From"
@@ -22047,7 +22047,7 @@ msgstr "Tip planiranog posla"
 #. Label of a Link in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Scheduled Jobs Logs"
-msgstr "Dnevnici zakazanih poslova"
+msgstr "Zapisi Zakazanih Poslova"
 
 #. Label of a Section Break field in DocType 'Newsletter'
 #: frappe/email/doctype/newsletter/newsletter.json
@@ -24628,7 +24628,7 @@ msgstr "Podnijeti {0} dokumente?"
 #: frappe/public/js/frappe/ui/filters/filter.js:531
 #: frappe/website/doctype/web_form/templates/web_form.html:133
 msgid "Submitted"
-msgstr "Potvrđeno"
+msgstr "Podnešeno"
 
 #: frappe/workflow/doctype/workflow/workflow.py:104
 msgid "Submitted Document cannot be converted back to draft. Transition row {0}"
@@ -28863,7 +28863,7 @@ msgstr "Stanje radnog toka predstavlja trenutno stanje dokumenta."
 
 #: frappe/public/js/workflow_builder/store.js:83
 msgid "Workflow updated successfully"
-msgstr "Radni tok je uspješno ažuriran"
+msgstr "Radni Tok je uspješno ažuriran"
 
 #. Description of the Onboarding Step 'Setup Approval Workflows'
 #: frappe/custom/onboarding_step/workflows/workflows.json
@@ -29428,7 +29428,7 @@ msgstr "Potrebna vam je '{0}' dozvola za {1} {2} da biste izvršili ovu radnju."
 
 #: frappe/desk/doctype/workspace/workspace.py:113
 msgid "You need to be Workspace Manager to delete a public workspace."
-msgstr "Morate biti Upravitelj Radne Prostora da biste izbrisali javni radni prostor."
+msgstr "Morate biti Upravitelj Radnog Prostora da biste izbrisali javni radni prostor."
 
 #: frappe/desk/doctype/workspace/workspace.py:71
 msgid "You need to be Workspace Manager to edit this document"
