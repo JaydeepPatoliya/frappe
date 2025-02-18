@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-01-13 17:03+0000\n"
-"PO-Revision-Date: 2025-02-17 11:39\n"
+"PO-Revision-Date: 2025-02-18 13:01\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Bosnian\n"
 "MIME-Version: 1.0\n"
@@ -4269,7 +4269,7 @@ msgstr "Nije moguće uređivati filtere za standardne grafikone"
 #: frappe/desk/doctype/number_card/number_card.js:277
 #: frappe/desk/doctype/number_card/number_card.js:364
 msgid "Cannot edit filters for standard number cards"
-msgstr "Nije moguće uređivati filtere za standardne brojevima kartice"
+msgstr "Nije moguće uređivati filtere za standardne numeričke kartice"
 
 #: frappe/client.py:166
 msgid "Cannot edit standard fields"
@@ -6467,7 +6467,7 @@ msgstr "Postavke nadzorne ploče"
 
 #: frappe/public/js/frappe/list/base_list.js:204
 msgid "Dashboard View"
-msgstr "Kontrolna Tabla Pregled"
+msgstr "Pregled Nadzorne Table"
 
 #. Label of a Tab Break field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
