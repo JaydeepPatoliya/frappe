@@ -36,9 +36,21 @@ def get_headers():
 
 @frappe.whitelist()
 def current_site_info():
+	from frappe.utils import cint
+
 	request = requests.post(f"{get_base_url()}/api/method/press.saas.api.site.info", headers=get_headers())
 	if request.status_code == 200:
-		return request.json().get("message")
+		res = request.json().get("message")
+		if not res:
+			return None
+
+		return {
+			**res,
+			"site_name": get_site_name(),
+			"base_url": get_base_url(),
+			"setup_complete": cint(frappe.get_system_settings("setup_complete")),
+		}
+
 	else:
 		# user is not allowed to access this resource
 		# not throwing error as this could cause UX issues for a normal user

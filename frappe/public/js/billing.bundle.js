@@ -13,7 +13,9 @@ $(document).ready(function () {
 				if (!r?.message) return;
 
 				const response = r.message;
-				if (response.trial_end_date) {
+				const trial_end_date = new Date(response.trial_end_date);
+
+				if (response.trial_end_date && trial_end_date > new Date()) {
 					$(".layout-main-section").before(
 						generateTrialSubscriptionBanner(response.trial_end_date)
 					);
