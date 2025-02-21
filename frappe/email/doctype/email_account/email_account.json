@@ -641,11 +641,7 @@
  "icon": "fa fa-inbox",
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< HEAD
- "modified": "2024-12-05 12:45:15.801652",
-=======
  "modified": "2024-12-30 11:25:58.427173",
->>>>>>> 7b96f19917 (feat: (IMAP) Always BCC (#28961))
  "modified_by": "Administrator",
  "module": "Email",
  "name": "Email Account",
